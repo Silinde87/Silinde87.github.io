@@ -18,7 +18,7 @@ body{
     width: 500px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 #contact{
@@ -42,3 +42,72 @@ body{
 #profile-link:hover{
     top: 8px;
 }
+
+.grid{
+    display: flex;
+    height: 322px;
+}
+.item{
+    list-style-type: none;
+    margin: 5px;
+    width: 280px;
+    border: 1px solid #456e6e;
+    border-radius: 20px;
+}
+
+.card{    
+    transform: translate(-50%,-50%);
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    margin-top: 140px;
+    margin-left: 140px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+}
+.card .imgBx,
+.card .imgBx2 {
+    position: absolute;    
+    transition: .8s;
+}
+.card .imgBx {
+    top: 0;
+}
+.card:hover .imgBx {    
+    top: -100%;
+}
+.card .imgBx img,
+.card .imgBx2 img {    
+    width: 280px;
+    height: 280px;
+}
+.card .imgBx2 {
+    top: 100%;    
+}
+.card:hover .imgBx2 {
+    top: 0;
+}
+.container{
+    text-decoration: none;
+    font-size: 20px;
+    color: #454545;
+    font-weight: bold;
+}
+
+
+.bar{
+    height: 29px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #456e6e;
+}
+
+
+
+
+
+
