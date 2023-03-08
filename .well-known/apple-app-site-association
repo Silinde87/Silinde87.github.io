@@ -3,13 +3,23 @@
     "apps": [],
     "details": [
       {
-        "appID": "HRSMP2Z328.org.reactjs.native.example.caixaforum",
-        "paths": ["/"]
-      },
-      {
-        "appID": "554HZ2M9PB.com.caixaforum",
-        "paths": ["/"]
+        "appIDs": [
+          "HRSMP2Z328.org.reactjs.native.example.caixaforum",
+          "554HZ2M9PB.com.caixaforum"
+        ],
+        "components": [
+          {
+            "/": "/",
+            "comment": "Matches any URL with a path that starts with /"
+          }
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "HRSMP2Z328.org.reactjs.native.example.caixaforum",
+      "554HZ2M9PB.com.caixaforum"
     ]
   }
 }
