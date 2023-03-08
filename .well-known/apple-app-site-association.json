@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "HRSMP2Z328.org.reactjs.native.example.caixaforum",
+        "paths": [ "NOT /help", "NOT /about", "*", "/" ]
+      }
+    ]
+  }
+}
