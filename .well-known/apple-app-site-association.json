@@ -4,7 +4,12 @@
     "details": [
       {
         "appID": "HRSMP2Z328.org.reactjs.native.example.caixaforum",
-        "paths": [ "*", "/" ]
+        "components": [
+          {
+             "/": "/",
+             "comment": "Matches any URL whose path starts with /"
+          },
+        ]
       }
     ]
   }
