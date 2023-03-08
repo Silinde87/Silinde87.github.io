@@ -5,6 +5,10 @@
       {
         "appID": "HRSMP2Z328.org.reactjs.native.example.caixaforum",
         "paths": ["/"]
+      },
+      {
+        "appID": "554HZ2M9PB.com.caixaforum",
+        "paths": ["/"]
       }
     ]
   }
