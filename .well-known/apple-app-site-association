@@ -4,8 +4,8 @@
         "details": [
             {
                 "appIDs": [
-                    "HRSMP2Z328.org.reactjs.native.example.caixaforum",
-                    "554HZ2M9PB.com.caixaforumplus"
+                    "554HZ2M9PB.com.caixaforumplus",
+                    "HRSMP2Z328.org.reactjs.native.example.caixaforum"                    
                 ],
                 "paths": [
                     "NOT /u/forgot-password",
@@ -18,8 +18,8 @@
     },
     "webcredentials": {
         "apps": [
-            "HRSMP2Z328.org.reactjs.native.example.caixaforum",
-            "554HZ2M9PB.com.caixaforumplus"
+            "554HZ2M9PB.com.caixaforumplus",
+            "HRSMP2Z328.org.reactjs.native.example.caixaforum"            
         ]
     }
 }
