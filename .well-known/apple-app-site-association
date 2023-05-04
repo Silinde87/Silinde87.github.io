@@ -1,40 +1,25 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appIDs": [
-          "HRSMP2Z328.org.reactjs.native.example.caixaforum",
-          "554HZ2M9PB.com.caixaforum"
-        ],
-        "components": [
-          {
-            "/": "/*",
-            "comment": "Matches any URL with a path that starts with /"
-          },
-          {
-            "/": "/u/forgot-password",
-            "exclude": true,
-            "comment": "Matches forgot password URL"
-          },
-          {
-            "/": "/u/verify-account*",
-            "exclude": true,
-            "comment": "Matches verify account URL"
-          },
-          {
-            "/": "/u/renew-password*",
-            "exclude": true,
-            "comment": "Matches renew-password URL"
-          }
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "HRSMP2Z328.org.reactjs.native.example.caixaforum",
+                    "554HZ2M9PB.com.caixaforum"
+                ],
+                "paths": [
+                    "/*",
+                    "NOT /u/forgot-password",
+                    "NOT /u/verify-account*",
+                    "NOT /u/renew-password*"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "HRSMP2Z328.org.reactjs.native.example.caixaforum",
-      "554HZ2M9PB.com.caixaforum"
-    ]
-  }
+    },
+    "webcredentials": {
+        "apps": [
+            "HRSMP2Z328.org.reactjs.native.example.caixaforum",
+            "554HZ2M9PB.com.caixaforum"
+        ]
+    }
 }
