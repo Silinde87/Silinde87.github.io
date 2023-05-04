@@ -8,10 +8,10 @@
                     "554HZ2M9PB.com.caixaforum"
                 ],
                 "paths": [
-                    "/*",
                     "NOT /u/forgot-password",
                     "NOT /u/verify-account*",
-                    "NOT /u/renew-password*"
+                    "NOT /u/renew-password*",
+                    "/*"
                 ]
             }
         ]
